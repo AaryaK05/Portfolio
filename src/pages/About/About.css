@@ -1,0 +1,22 @@
+.about{
+    height: calc(100vh - 50px);
+}
+
+.download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+button{
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border-color: none;
+    margin:10px;
+}
+
+button:hover{
+    cursor: pointer;
+}

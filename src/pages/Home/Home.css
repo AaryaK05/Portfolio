@@ -1,0 +1,72 @@
+
+.home-center{
+    display: flex;
+    justify-content: space-evenly;
+     margin-top: 100px; 
+}
+
+.home-font{
+    font-size: 1.7rem;
+    text-align: center;
+}
+.left-font{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+#hey{
+    font-size: 2rem;
+}
+
+
+#image-bk{
+    background-color: white;
+    height: 457px;
+    width: 200px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+img{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.sm{
+    width: 50px;
+    height: 50px;
+}
+
+.sm-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.typewriter{
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    border-right: .10em solid gray;
+    animation: typing 1.1s steps(20, end) forwards, blinking .8s infinite;
+    width: 0;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blinking {
+    from { border-color: transparent }
+    to { border-color: gray; }
+  }
