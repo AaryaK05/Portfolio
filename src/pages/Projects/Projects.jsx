@@ -27,17 +27,17 @@ function Projects() {
       <div>
         <p>⚫ Personal Portfolio</p>
         <p>Github-{">"} 
-        <Link to="https://github.com/SolarCat05/Bookstore_mern_app">
+        <Link to="https://github.com/SolarCat05/Portfolio">
         <span className='links' style={{color:'white'}}>
-        {"https://github.com/SolarCat05/Bookstore_mern_app"}
+        {"https://github.com/SolarCat05/Portfolio"}
         </span>
         </Link>
         </p>
 
         <p>Live-{">"}
-        <Link to="https://bookstore-mern-app-kfk9.onrender.com/">
+        <Link to="https://portfolio-kpyo.onrender.com">
         <span className='links' style={{color:'white'}}>
-        {"https://bookstore-mern-app-kfk9.onrender.com/"}
+        {"https://portfolio-kpyo.onrender.com"}
         </span>
         </Link>
         </p>
