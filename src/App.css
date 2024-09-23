@@ -184,23 +184,28 @@ button:hover{
     }
 
     .left-font{
-        margin-top: 100px;
+        margin-top: 150px;
+        margin-bottom: 0px;
+    }
+
+    .left-font p{
+        margin-bottom: 0px;
     }
 
     #image-bk{
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
         margin-top: 20px;
     }
 
     img{
-        height: 100px;
-        width: 100px;
+        height: 150px;
+        width: 150px;
     }
 
     .about{
         height: calc(100vh - 50vh);
-        margin: 10px 0px;
+        margin: 40px 0px;
         padding: 5px 60px ;
         gap: 10px;
         text-align: justify;
