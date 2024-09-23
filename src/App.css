@@ -230,8 +230,8 @@ button:hover{
     }
 
     .contact{
-        height: calc(100vh - 350px);
-        margin-top: 280px;
+        height: 50vh;
+        margin-top: 480px;
     }
 
     .form-container{
