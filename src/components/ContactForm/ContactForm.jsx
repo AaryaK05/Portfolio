@@ -20,6 +20,7 @@ function ContactForm() {
 
     return (
     <div className='ContactForm'>
+        <p>SEND ME A MESSAGE</p>
         <div>
             <input type='text' placeholder='Name' onChange={(e)=>setName(e.target.value)}/>
         </div>
@@ -27,7 +28,7 @@ function ContactForm() {
             <input type='email' placeholder='Email' onChange={(e)=>setEmail(e.target.value)}/>
         </div>
         <div>
-            <input type='textarea' id='msg' placeholder='Message' onChange={(e)=>setMessage(e.target.value)}/>
+            <input type='text' id='msg' placeholder='Message' onChange={(e)=>setMessage(e.target.value)}/>
         </div>
         <div>
             <button onClick={handleSubmit}>Submit</button>

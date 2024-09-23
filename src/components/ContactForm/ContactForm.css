@@ -10,12 +10,34 @@
 
 input{
     width: 500px ;
+    background-color:#29323c0e;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 #msg{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    padding-bottom: 100px;
     height: 100px;
 }
 
 button{
     color: white;
+}
+
+@media only screen and (max-width: 767px) {
+    .ContactForm{
+        width: 50vw;
+        height: 50vh;
+    }
+
+    input{
+        width: 300px;
+    }
+
+    #msg{
+        padding-bottom: 50px;
+    }
 }

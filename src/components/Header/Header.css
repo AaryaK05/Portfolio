@@ -14,9 +14,14 @@
 
 a{
     text-decoration: none;
+    scroll-behavior: smooth;
 } 
 
 p{
     color: white;
+}
+
+#header p:hover{
+    text-shadow: 2px 2px 5px white;
 }
 

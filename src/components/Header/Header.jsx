@@ -1,24 +1,25 @@
-import { Link } from 'react-router-dom';
+
 import './Header.css';
 
 function Header() {
   return (
     <div id='header'>
         <div>
-            <Link to="/">
+            <a style={{textDecoration:'none'}} href="#">
             <p> {">"}_ </p>
-            </Link>
+            </a>
         </div>
         <div className='header-links'>
-        <Link to="/about">
+        <a style={{textDecoration:'none'}} href="#about">
             <p>About</p>
-        </Link>
-        <Link to="/projects">
+        </a>
+        <a style={{textDecoration:'none'}} href="#projects">
             <p>Projects</p>
-        </Link>
-        <Link to="/contact">
+        </a>
+        <a style={{textDecoration:'none'}} href="#contact">
             <p>Contact</p>
-        </Link>
+        </a>
+        
         </div>
     </div>
   )

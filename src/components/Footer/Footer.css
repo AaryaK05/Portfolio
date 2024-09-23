@@ -5,4 +5,9 @@
     align-items: center;
     padding-top: 20px;
     margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+#footer img:hover{
+    box-shadow: 2px 2px 5px white;
 }
